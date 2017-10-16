@@ -12,6 +12,7 @@
 		C5A8EF881F9558450034E1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A8EF871F9558450034E1C8 /* Assets.xcassets */; };
 		C5A8EF8B1F9558450034E1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A8EF891F9558450034E1C8 /* Main.storyboard */; };
 		C5A8EF8E1F9558450034E1C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A8EF8D1F9558450034E1C8 /* main.m */; };
+		C5A8EF971F95585D0034E1C8 /* MouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A8EF961F95585D0034E1C8 /* MouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,9 @@
 		C5A8EF8C1F9558450034E1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5A8EF8D1F9558450034E1C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5A8EF8F1F9558450034E1C8 /* mousetest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mousetest.entitlements; sourceTree = "<group>"; };
+		C5A8EF951F95585D0034E1C8 /* MouseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MouseView.h; sourceTree = "<group>"; };
+		C5A8EF961F95585D0034E1C8 /* MouseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MouseView.m; sourceTree = "<group>"; };
+		C5A8EF981F955B420034E1C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		C5A8EF751F9558450034E1C8 = {
 			isa = PBXGroup;
 			children = (
+				C5A8EF981F955B420034E1C8 /* README.md */,
 				C5A8EF801F9558450034E1C8 /* mousetest */,
 				C5A8EF7F1F9558450034E1C8 /* Products */,
 			);
@@ -61,6 +66,8 @@
 				C5A8EF821F9558450034E1C8 /* AppDelegate.m */,
 				C5A8EF841F9558450034E1C8 /* ViewController.h */,
 				C5A8EF851F9558450034E1C8 /* ViewController.m */,
+				C5A8EF951F95585D0034E1C8 /* MouseView.h */,
+				C5A8EF961F95585D0034E1C8 /* MouseView.m */,
 				C5A8EF871F9558450034E1C8 /* Assets.xcassets */,
 				C5A8EF891F9558450034E1C8 /* Main.storyboard */,
 				C5A8EF8C1F9558450034E1C8 /* Info.plist */,
@@ -142,6 +149,7 @@
 			files = (
 				C5A8EF861F9558450034E1C8 /* ViewController.m in Sources */,
 				C5A8EF8E1F9558450034E1C8 /* main.m in Sources */,
+				C5A8EF971F95585D0034E1C8 /* MouseView.m in Sources */,
 				C5A8EF831F9558450034E1C8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
